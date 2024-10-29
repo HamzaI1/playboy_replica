@@ -1,0 +1,56 @@
+.header {
+  background-color: white;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+  z-index: 1000;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.header-main-logo {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.header-logo-container {
+  width: 150px;
+}
+
+.header-menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex : 1;
+}
+
+.menu-item {
+  margin-right: 30px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.header-left-icon {
+  height: 22px;
+  width: 22px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header-left-icons {
+  display: flex;
+  align-items: center;
+  width: 140px;
+}
+
+
+
+
+
+
